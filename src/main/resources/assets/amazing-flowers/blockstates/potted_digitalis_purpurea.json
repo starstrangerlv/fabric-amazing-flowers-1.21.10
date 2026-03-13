@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "amazing-flowers:block/digitalis_purpurea_bottom"
+    },
+    "half=upper": {
+      "model": "amazing-flowers:block/digitalis_purpurea_top"
+    }
+  }
+}

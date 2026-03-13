@@ -1,0 +1,7 @@
+{
+  "parent": "amazing-flowers:block/cross",
+  "textures": {
+    "cross0": "amazing-flowers:block/cosmic_flower",
+    "cross1": "amazing-flowers:block/cosmic_flower-1"
+  }
+}

@@ -1,0 +1,13 @@
+// 1.21.10	-999999999-01-01T00:00:00	Amazing Flowers/FabricDocsReference Model Provider
+a0ba44da9bd92ed3a345dc8c34535b6f277a0517 assets/amazing-flowers/blockstates/cosmic_flower.json
+5a24f62b2bea10f4f0f7711edb303069607a87d6 assets/amazing-flowers/blockstates/potted_cosmic_flower.json
+4df9a16488f0b7c84637481d6973344fbab386ef assets/amazing-flowers/blockstates/potted_taraxacum.json
+be37dcea8b34539e705f78d4f77d811bf2e9e7a1 assets/amazing-flowers/blockstates/taraxacum.json
+fbcd78ae0ee80ff763a313764914418b1d15191b assets/amazing-flowers/items/cosmic_flower.json
+74497ea4ed11626a53ab03e7a773c57afc33172c assets/amazing-flowers/items/potted_cosmic_flower.json
+e7b8bf8bed9b7b888ab9bf13ea3105646efd9125 assets/amazing-flowers/items/potted_taraxacum.json
+5bcfe3276f621e7b6d5d3cabe39a7662833406e5 assets/amazing-flowers/items/taraxacum.json
+3e7442d0060ae7457f68fc5df585705b74506645 assets/amazing-flowers/models/block/cosmic_flower.json
+b8b0a10f6bd559dc69c7295fd8cc74033a3b05f4 assets/amazing-flowers/models/block/potted_cosmic_flower.json
+bf26755a9e92942bf33d9430325c0f40b4c03857 assets/amazing-flowers/models/block/potted_taraxacum.json
+e797ff02143209a231cb306c78c0ef18837921e1 assets/amazing-flowers/models/block/taraxacum.json
