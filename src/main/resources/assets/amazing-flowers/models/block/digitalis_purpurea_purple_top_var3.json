@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "amazing-flowers:block/digitalis_purpurea_purple_top_var3"
+  }
+}

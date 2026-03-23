@@ -26,7 +26,8 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register((itemGroup) -> {
             itemGroup.add(ModBlocks.COSMIC_FLOWER.asItem());
             itemGroup.add(ModBlocks.TARAXACUM.asItem());
-            itemGroup.add(ModBlocks.DIGITALIS_PURPUREA.asItem());
+            itemGroup.add(ModBlocks.DIGITALIS_PURPUREA_RUBY.asItem());
+            itemGroup.add(ModBlocks.DIGITALIS_PURPUREA_PURPLE.asItem());
             itemGroup.add(ModBlocks.WHITEROSE_BUSH.asItem());
             itemGroup.add(ModBlocks.YELLOWROSE_BUSH.asItem());
             itemGroup.add(ModBlocks.PURPLEROSE_BUSH.asItem());
@@ -61,7 +62,20 @@ public class ModBlocks {
             settings -> new FlowerBlock(StatusEffects.REGENERATION, 10, settings),
             AbstractBlock.Settings.create().copyShallow(TARAXACUM), true);
 
-    public static final Block DIGITALIS_PURPUREA = register("digitalis_purpurea",
+
+    public static final Block DIGITALIS_PURPUREA_RUBY = register("digitalis_purpurea_ruby",
+            TallFlowerBlock::new,
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_GREEN)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .burnable()
+                    .pistonBehavior(PistonBehavior.DESTROY), true
+    );
+
+    public static final Block DIGITALIS_PURPUREA_PURPLE = register("digitalis_purpurea_purple",
             TallFlowerBlock::new,
             AbstractBlock.Settings.create()
                     .mapColor(MapColor.DARK_GREEN)

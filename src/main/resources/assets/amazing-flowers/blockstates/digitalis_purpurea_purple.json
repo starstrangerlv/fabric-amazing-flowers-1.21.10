@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "half=lower": [
+      { "model": "amazing-flowers:block/digitalis_purpurea_purple_bottom_var1" },
+      { "model": "amazing-flowers:block/digitalis_purpurea_purple_bottom_var2" },
+      { "model": "amazing-flowers:block/digitalis_purpurea_purple_bottom_var3" },
+      { "model": "amazing-flowers:block/digitalis_purpurea_purple_bottom_var4" }
+    ],
+    "half=upper": [
+      { "model": "amazing-flowers:block/digitalis_purpurea_purple_top_var1" },
+      { "model": "amazing-flowers:block/digitalis_purpurea_purple_top_var2" },
+      { "model": "amazing-flowers:block/digitalis_purpurea_purple_top_var3" },
+      { "model": "amazing-flowers:block/digitalis_purpurea_purple_top_var4" }
+    ]
+  }
+}

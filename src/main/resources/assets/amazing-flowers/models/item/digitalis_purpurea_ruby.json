@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "amazing-flowers:block/digitalis_purpurea_ruby_top_var1"
+  }
+}
