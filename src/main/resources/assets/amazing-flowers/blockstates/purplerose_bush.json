@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "amazing-flowers:block/purplerose_bush_bottom"
+    },
+    "half=upper": {
+      "model": "amazing-flowers:block/purplerose_bush_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "amazing-flowers:block/purplerose_bush_top"
+  }
+}
