@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "amazing-flowers:block/taraxacum"
+    "cross": "amazing-flowers:block/taraxacum_var4"
   }
 }

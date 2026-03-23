@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "amazing-flowers:block/taraxacum"
+    "model": "amazing-flowers:block/taraxacum_var1"
   }
 }

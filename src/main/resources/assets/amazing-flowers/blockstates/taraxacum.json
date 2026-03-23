@@ -1,7 +1,18 @@
 {
   "variants": {
-    "": {
-      "model": "amazing-flowers:block/taraxacum"
-    }
+    "": [
+      {
+        "model": "amazing-flowers:block/taraxacum_var1"
+      },
+      {
+        "model": "amazing-flowers:block/taraxacum_var2"
+      },
+      {
+        "model": "amazing-flowers:block/taraxacum_var3"
+      },
+      {
+        "model": "amazing-flowers:block/taraxacum_var4"
+      }
+    ]
   }
 }
