@@ -32,6 +32,11 @@ public class ModBlocks {
             itemGroup.add(ModBlocks.YELLOWROSE_BUSH.asItem());
             itemGroup.add(ModBlocks.PURPLEROSE_BUSH.asItem());
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register((itemGroup) -> {
+            itemGroup.add(ModBlocks.POTTED_COSMIC_FLOWER.asItem());
+            itemGroup.add(ModBlocks.POTTED_TARAXACUM.asItem());
+        });
     }
 
     public static final Block COSMIC_FLOWER = register("cosmic_flower",
