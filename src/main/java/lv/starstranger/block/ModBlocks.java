@@ -29,6 +29,7 @@ public class ModBlocks {
             itemGroup.add(ModBlocks.DIGITALIS_PURPUREA_RUBY.asItem());
             itemGroup.add(ModBlocks.DIGITALIS_PURPUREA_PURPLE.asItem());
             itemGroup.add(ModBlocks.DELPHINIUM.asItem());
+            itemGroup.add(ModBlocks.JOE_PYE_WEED.asItem());
             itemGroup.add(ModBlocks.WHITEROSE_BUSH.asItem());
             itemGroup.add(ModBlocks.YELLOWROSE_BUSH.asItem());
             itemGroup.add(ModBlocks.PURPLEROSE_BUSH.asItem());
@@ -97,6 +98,19 @@ public class ModBlocks {
 
     //delphinium
     public static final Block DELPHINIUM = register("delphinium",
+            TallFlowerBlock::new,
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_GREEN)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .burnable()
+                    .pistonBehavior(PistonBehavior.DESTROY), true
+    );
+
+    //joe_pye_weed
+    public static final Block JOE_PYE_WEED = register("joe_pye_weed",
             TallFlowerBlock::new,
             AbstractBlock.Settings.create()
                     .mapColor(MapColor.DARK_GREEN)

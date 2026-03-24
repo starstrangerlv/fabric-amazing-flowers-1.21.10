@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "amazing-flowers:block/joe_pye_weed_top_var2"
+  }
+}
