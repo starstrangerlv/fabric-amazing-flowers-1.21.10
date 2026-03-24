@@ -28,6 +28,7 @@ public class ModBlocks {
             itemGroup.add(ModBlocks.TARAXACUM.asItem());
             itemGroup.add(ModBlocks.DIGITALIS_PURPUREA_RUBY.asItem());
             itemGroup.add(ModBlocks.DIGITALIS_PURPUREA_PURPLE.asItem());
+            itemGroup.add(ModBlocks.DELPHINIUM.asItem());
             itemGroup.add(ModBlocks.WHITEROSE_BUSH.asItem());
             itemGroup.add(ModBlocks.YELLOWROSE_BUSH.asItem());
             itemGroup.add(ModBlocks.PURPLEROSE_BUSH.asItem());
@@ -59,6 +60,8 @@ public class ModBlocks {
                     .offset(AbstractBlock.OffsetType.XZ)
                     .pistonBehavior(PistonBehavior.DESTROY), true);
 
+
+
     public static final Block POTTED_COSMIC_FLOWER = register("potted_cosmic_flower",
             settings -> new FlowerBlock(StatusEffects.REGENERATION, 10, settings),
             AbstractBlock.Settings.create().copyShallow(COSMIC_FLOWER), true);
@@ -81,6 +84,19 @@ public class ModBlocks {
     );
 
     public static final Block DIGITALIS_PURPUREA_PURPLE = register("digitalis_purpurea_purple",
+            TallFlowerBlock::new,
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_GREEN)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .burnable()
+                    .pistonBehavior(PistonBehavior.DESTROY), true
+    );
+
+    //delphinium
+    public static final Block DELPHINIUM = register("delphinium",
             TallFlowerBlock::new,
             AbstractBlock.Settings.create()
                     .mapColor(MapColor.DARK_GREEN)

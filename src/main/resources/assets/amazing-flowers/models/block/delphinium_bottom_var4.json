@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "amazing-flowers:block/delphinium_bottom_var4"
+  }
+}
