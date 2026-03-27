@@ -21,17 +21,16 @@ public class AmazingFlowers implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("-=* Amazing Flowers *=-");
 
 		ModBlocks.initialize();
 
+		//add block transparency
 		BlockRenderLayerMap.putBlock(ModBlocks.COSMIC_FLOWER, BlockRenderLayer.CUTOUT);
 		BlockRenderLayerMap.putBlock(ModBlocks.TARAXACUM, BlockRenderLayer.CUTOUT);
-		//BlockRenderLayerMap.putBlock(ModBlocks.POTTED_COSMIC_FLOWER, BlockRenderLayer.CUTOUT);
+
+		BlockRenderLayerMap.putBlock(ModBlocks.POTTED_COSMIC_FLOWER, BlockRenderLayer.CUTOUT);
+		BlockRenderLayerMap.putBlock(ModBlocks.POTTED_TARAXACUM, BlockRenderLayer.CUTOUT);
 
 		BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_RUBY, BlockRenderLayer.CUTOUT);
 		BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_PURPLE, BlockRenderLayer.CUTOUT);
