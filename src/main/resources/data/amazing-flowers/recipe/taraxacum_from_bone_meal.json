@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "amazing-flowers:taraxacum",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "amazing-flowers:taraxacum",
+    "count": 2
+  }
+}

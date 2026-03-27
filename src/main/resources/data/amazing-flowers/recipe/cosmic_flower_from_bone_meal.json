@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "amazing-flowers:cosmic_flower",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "amazing-flowers:cosmic_flower",
+    "count": 2
+  }
+}
