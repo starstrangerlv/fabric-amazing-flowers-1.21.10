@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:lily_of_the_valley",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:lily_of_the_valley",
+    "count": 2
+  }
+}

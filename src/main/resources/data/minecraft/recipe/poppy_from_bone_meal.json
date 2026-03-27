@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:poppy",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:poppy",
+    "count": 2
+  }
+}

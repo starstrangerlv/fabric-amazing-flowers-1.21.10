@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:torchflower",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:torchflower",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:allium",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:allium",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:oxeye_daisy",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:oxeye_daisy",
+    "count": 2
+  }
+}

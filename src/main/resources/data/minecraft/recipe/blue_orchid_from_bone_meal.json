@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:blue_orchid",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:blue_orchid",
+    "count": 2
+  }
+}

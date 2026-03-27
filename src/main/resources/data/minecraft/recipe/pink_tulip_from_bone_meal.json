@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:pink_tulip",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:pink_tulip",
+    "count": 2
+  }
+}

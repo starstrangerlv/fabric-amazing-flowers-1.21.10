@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:azure_bluet",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:azure_bluet",
+    "count": 2
+  }
+}
