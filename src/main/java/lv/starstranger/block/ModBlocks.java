@@ -64,12 +64,12 @@ public class ModBlocks {
 
 
     public static final Block POTTED_COSMIC_FLOWER = register("potted_cosmic_flower",
-            settings -> new FlowerBlock(StatusEffects.REGENERATION, 10, settings),
-            AbstractBlock.Settings.create().copyShallow(COSMIC_FLOWER), true);
+            settings -> new FlowerPotBlock(COSMIC_FLOWER, settings),
+            AbstractBlock.Settings.create(), true);
 
     public static final Block POTTED_TARAXACUM = register("potted_taraxacum",
-            settings -> new FlowerBlock(StatusEffects.REGENERATION, 10, settings),
-            AbstractBlock.Settings.create().copyShallow(TARAXACUM), true);
+            settings -> new FlowerPotBlock(TARAXACUM, settings),
+            AbstractBlock.Settings.create(), true);
 
 
     public static final Block DIGITALIS_PURPUREA_RUBY = register("digitalis_purpurea_ruby",
