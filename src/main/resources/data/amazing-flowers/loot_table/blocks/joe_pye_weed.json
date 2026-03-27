@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "amazing-flowers:digitalis_purpurea",
+              "block": "amazing-flowers:joe_pye_weed",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "minecraft:rose_bush"
+          "name": "amazing-flowers:joe_pye_weed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "amazing-flowers:blocks/digitalis_purpurea"
+  "random_sequence": "amazing-flowers:blocks/joe_pye_weed"
 }
