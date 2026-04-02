@@ -37,6 +37,7 @@ public class ModModelProvider extends FabricModelProvider {
                 BlockStateModelGenerator.CrossType.NOT_TINTED
         );
 
+
         /*blockStateModelGenerator.registerDoubleBlock(
                 ModBlocks.YELLOWROSE_BUSH,
                 BlockStateModelGenerator.CrossType.NOT_TINTED
