@@ -1,9 +1,11 @@
 package lv.starstranger;
 
 import lv.starstranger.block.ModBlocks;
+import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.BlockRenderType;
 import net.minecraft.client.render.BlockRenderLayer;
 import net.minecraft.client.render.RenderLayer;
@@ -25,21 +27,26 @@ public class AmazingFlowers implements ModInitializer {
 
 		ModBlocks.initialize();
 
-		//add block transparency
-		BlockRenderLayerMap.putBlock(ModBlocks.COSMIC_FLOWER, BlockRenderLayer.CUTOUT);
-		BlockRenderLayerMap.putBlock(ModBlocks.TARAXACUM, BlockRenderLayer.CUTOUT);
+		if (FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT) {
+			//add block transparency
+			BlockRenderLayerMap.putBlock(ModBlocks.COSMIC_FLOWER, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.TARAXACUM, BlockRenderLayer.CUTOUT);
 
-		BlockRenderLayerMap.putBlock(ModBlocks.POTTED_COSMIC_FLOWER, BlockRenderLayer.CUTOUT);
-		BlockRenderLayerMap.putBlock(ModBlocks.POTTED_TARAXACUM, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_COSMIC_FLOWER, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_TARAXACUM, BlockRenderLayer.CUTOUT);
 
-		BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_RUBY, BlockRenderLayer.CUTOUT);
-		BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_PURPLE, BlockRenderLayer.CUTOUT);
-		BlockRenderLayerMap.putBlock(ModBlocks.DELPHINIUM, BlockRenderLayer.CUTOUT);
-		BlockRenderLayerMap.putBlock(ModBlocks.JOE_PYE_WEED, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_RUBY, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_PURPLE, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.DELPHINIUM, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.JOE_PYE_WEED, BlockRenderLayer.CUTOUT);
 
-		BlockRenderLayerMap.putBlock(ModBlocks.WHITEROSE_BUSH, BlockRenderLayer.CUTOUT);
-		BlockRenderLayerMap.putBlock(ModBlocks.YELLOWROSE_BUSH, BlockRenderLayer.CUTOUT);
-		BlockRenderLayerMap.putBlock(ModBlocks.PURPLEROSE_BUSH, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.WHITEROSE_BUSH, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.YELLOWROSE_BUSH, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.PURPLEROSE_BUSH, BlockRenderLayer.CUTOUT);
+		}
+
+
+
 	}
 
 }
