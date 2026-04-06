@@ -26,6 +26,10 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register((itemGroup) -> {
             itemGroup.add(ModBlocks.COSMIC_FLOWER.asItem());
             itemGroup.add(ModBlocks.TARAXACUM.asItem());
+            itemGroup.add(ModBlocks.CROCUS_WHITE.asItem());
+            itemGroup.add(ModBlocks.CROCUS_YELLOW.asItem());
+            itemGroup.add(ModBlocks.CROCUS_PINK.asItem());
+            itemGroup.add(ModBlocks.CROCUS_PURPLE.asItem());
             itemGroup.add(ModBlocks.DIGITALIS_PURPUREA_RUBY.asItem());
             itemGroup.add(ModBlocks.DIGITALIS_PURPUREA_PURPLE.asItem());
             itemGroup.add(ModBlocks.DELPHINIUM.asItem());
@@ -61,7 +65,45 @@ public class ModBlocks {
                     .offset(AbstractBlock.OffsetType.XZ)
                     .pistonBehavior(PistonBehavior.DESTROY), true);
 
+    public static final Block CROCUS_PINK = register("crocus_pink",
+            settings -> new FlowerBlock(StatusEffects.OOZING, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PINK)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
 
+    public static final Block CROCUS_PURPLE = register("crocus_purple",
+            settings -> new FlowerBlock(StatusEffects.OOZING, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PURPLE)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
+    public static final Block CROCUS_WHITE = register("crocus_white",
+            settings -> new FlowerBlock(StatusEffects.OOZING, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.WHITE)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
+    public static final Block CROCUS_YELLOW = register("crocus_yellow",
+            settings -> new FlowerBlock(StatusEffects.OOZING, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.YELLOW)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
 
     public static final Block POTTED_COSMIC_FLOWER = register("potted_cosmic_flower",
             settings -> new FlowerPotBlock(COSMIC_FLOWER, settings),

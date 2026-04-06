@@ -2,6 +2,12 @@
   "block.minecraft.rose_bush": "Red Roses",
 
   "block.amazing-flowers.taraxacum": "Taraxacum",
+
+  "block.amazing-flowers.crocus_pink": "Pink Crocus",
+  "block.amazing-flowers.crocus_purple": "Purple Crocus",
+  "block.amazing-flowers.crocus_white": "White Crocus",
+  "block.amazing-flowers.crocus_yellow": "Yellow Crocus",
+
   "block.amazing-flowers.potted_taraxacum": "Potted Taraxacum",
   "block.amazing-flowers.cosmic_flower": "Cosmic Flower",
   "block.amazing-flowers.potted_cosmic_flower": "Potted Cosmic Flower",

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "amazing-flowers:block/crocus_white_var1"
+      },
+      {
+        "model": "amazing-flowers:block/crocus_white_var2"
+      },
+      {
+        "model": "amazing-flowers:block/crocus_white_var3"
+      },
+      {
+        "model": "amazing-flowers:block/crocus_white_var4"
+      }
+    ]
+  }
+}

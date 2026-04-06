@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "amazing-flowers:crocus_purple",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "amazing-flowers:crocus_purple",
+    "count": 2
+  }
+}
