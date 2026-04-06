@@ -51,7 +51,7 @@ public class ModBlocks {
     public static final Block COSMIC_FLOWER = register("cosmic_flower",
             settings -> new FlowerBlock(StatusEffects.REGENERATION, 10, settings),
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_GREEN)
+                    .mapColor(MapColor.DARK_AQUA)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -61,7 +61,7 @@ public class ModBlocks {
     public static final Block TARAXACUM = register("taraxacum",
             settings -> new FlowerBlock(StatusEffects.REGENERATION, 10, settings),
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_GREEN)
+                    .mapColor(MapColor.PALE_YELLOW)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -81,7 +81,7 @@ public class ModBlocks {
     public static final Block CROCUS_PINK = register("crocus_pink",
             settings -> new FlowerBlock(StatusEffects.OOZING, 15, settings),
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.PINK)
+                    .mapColor(MapColor.PALE_PURPLE)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -91,7 +91,7 @@ public class ModBlocks {
     public static final Block CROCUS_PURPLE = register("crocus_purple",
             settings -> new FlowerBlock(StatusEffects.OOZING, 15, settings),
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.PURPLE)
+                    .mapColor(MapColor.PALE_PURPLE)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -101,7 +101,7 @@ public class ModBlocks {
     public static final Block CROCUS_WHITE = register("crocus_white",
             settings -> new FlowerBlock(StatusEffects.OOZING, 15, settings),
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.WHITE)
+                    .mapColor(MapColor.OFF_WHITE)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -111,7 +111,7 @@ public class ModBlocks {
     public static final Block CROCUS_YELLOW = register("crocus_yellow",
             settings -> new FlowerBlock(StatusEffects.OOZING, 15, settings),
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.YELLOW)
+                    .mapColor(MapColor.PALE_YELLOW)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -134,7 +134,7 @@ public class ModBlocks {
     public static final Block DIGITALIS_PURPUREA_RUBY = register("digitalis_purpurea_ruby",
             TallFlowerBlock::new,
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_GREEN)
+                    .mapColor(MapColor.DARK_RED)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -146,7 +146,7 @@ public class ModBlocks {
     public static final Block DIGITALIS_PURPUREA_PURPLE = register("digitalis_purpurea_purple",
             TallFlowerBlock::new,
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_GREEN)
+                    .mapColor(MapColor.PALE_PURPLE)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -172,7 +172,7 @@ public class ModBlocks {
     public static final Block JOE_PYE_WEED = register("joe_pye_weed",
             TallFlowerBlock::new,
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_GREEN)
+                    .mapColor(MapColor.DULL_PINK)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -184,7 +184,7 @@ public class ModBlocks {
     public static final Block WHITEROSE_BUSH = register("whiterose_bush",
             TallFlowerBlock::new,
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_GREEN)
+                    .mapColor(MapColor.LIGHT_GRAY)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -196,7 +196,7 @@ public class ModBlocks {
     public static final Block YELLOWROSE_BUSH = register("yellowrose_bush",
             TallFlowerBlock::new,
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_GREEN)
+                    .mapColor(MapColor.PALE_YELLOW)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -208,7 +208,7 @@ public class ModBlocks {
     public static final Block PURPLEROSE_BUSH = register("purplerose_bush",
             TallFlowerBlock::new,
             AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_GREEN)
+                    .mapColor(MapColor.PALE_PURPLE)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
