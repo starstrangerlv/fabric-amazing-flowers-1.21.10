@@ -31,6 +31,7 @@ public class AmazingFlowers implements ModInitializer {
 			//add block transparency
 			BlockRenderLayerMap.putBlock(ModBlocks.COSMIC_FLOWER, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.TARAXACUM, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.BLUEBELLS, BlockRenderLayer.CUTOUT);
 
 			BlockRenderLayerMap.putBlock(ModBlocks.CROCUS_PINK, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.CROCUS_PURPLE, BlockRenderLayer.CUTOUT);
@@ -39,6 +40,7 @@ public class AmazingFlowers implements ModInitializer {
 
 			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_COSMIC_FLOWER, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_TARAXACUM, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_BLUEBELLS, BlockRenderLayer.CUTOUT);
 
 			BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_RUBY, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_PURPLE, BlockRenderLayer.CUTOUT);

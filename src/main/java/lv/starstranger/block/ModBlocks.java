@@ -26,6 +26,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register((itemGroup) -> {
             itemGroup.add(ModBlocks.COSMIC_FLOWER.asItem());
             itemGroup.add(ModBlocks.TARAXACUM.asItem());
+            itemGroup.add(ModBlocks.BLUEBELLS.asItem());
             itemGroup.add(ModBlocks.CROCUS_WHITE.asItem());
             itemGroup.add(ModBlocks.CROCUS_YELLOW.asItem());
             itemGroup.add(ModBlocks.CROCUS_PINK.asItem());
@@ -42,6 +43,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register((itemGroup) -> {
             itemGroup.add(ModBlocks.POTTED_COSMIC_FLOWER.asItem());
             itemGroup.add(ModBlocks.POTTED_TARAXACUM.asItem());
+            itemGroup.add(ModBlocks.POTTED_BLUEBELLS.asItem());
         });
     }
 
@@ -59,6 +61,16 @@ public class ModBlocks {
             settings -> new FlowerBlock(StatusEffects.REGENERATION, 10, settings),
             AbstractBlock.Settings.create()
                     .mapColor(MapColor.DARK_GREEN)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
+    public static final Block BLUEBELLS = register("bluebells",
+            settings -> new FlowerBlock(StatusEffects.INVISIBILITY, 10, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PALE_PURPLE)
                     .noCollision()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.GRASS)
@@ -111,6 +123,10 @@ public class ModBlocks {
 
     public static final Block POTTED_TARAXACUM = register("potted_taraxacum",
             settings -> new FlowerPotBlock(TARAXACUM, settings),
+            AbstractBlock.Settings.create(), true);
+
+    public static final Block POTTED_BLUEBELLS = register("potted_bluebells",
+            settings -> new FlowerPotBlock(BLUEBELLS, settings),
             AbstractBlock.Settings.create(), true);
 
 

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "amazing-flowers:block/bluebells_var1"
+      },
+      {
+        "model": "amazing-flowers:block/bluebells_var2"
+      },
+      {
+        "model": "amazing-flowers:block/bluebells_var3"
+      },
+      {
+        "model": "amazing-flowers:block/bluebells_var4"
+      }
+    ]
+  }
+}

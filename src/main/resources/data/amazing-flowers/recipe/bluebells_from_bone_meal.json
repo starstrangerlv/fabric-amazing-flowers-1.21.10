@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "amazing-flowers:bluebells",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "amazing-flowers:bluebells",
+    "count": 2
+  }
+}
