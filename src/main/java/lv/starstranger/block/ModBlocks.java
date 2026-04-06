@@ -21,6 +21,7 @@ import java.util.function.Function;
 import static net.minecraft.block.Blocks.createFlowerPotSettings;
 
 public class ModBlocks {
+    private static int blockNum = 0;
 
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register((itemGroup) -> {
@@ -237,7 +238,8 @@ public class ModBlocks {
             BlockItem blockItem = new BlockItem(block, new Item.Settings().registryKey(itemKey).useBlockPrefixedTranslationKey());
             Registry.register(Registries.ITEM, itemKey, blockItem);
         }
-
+        blockNum++;
+        AmazingFlowers.LOGGER.info("  + block: (" + blockNum + ") " + name);
         return Registry.register(Registries.BLOCK, blockKey, block);
     }
 
