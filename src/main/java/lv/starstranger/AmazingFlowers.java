@@ -47,6 +47,11 @@ public class AmazingFlowers implements ModInitializer {
 			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_TARAXACUM, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_BLUEBELLS, BlockRenderLayer.CUTOUT);
 
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_ANEMONE_PINK, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_ANEMONE_PURPLE, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_ANEMONE_RED, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_ANEMONE_WHITE, BlockRenderLayer.CUTOUT);
+
 			BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_RUBY, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_PURPLE, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.DELPHINIUM, BlockRenderLayer.CUTOUT);

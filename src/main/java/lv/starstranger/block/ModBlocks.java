@@ -49,6 +49,11 @@ public class ModBlocks {
             itemGroup.add(ModBlocks.POTTED_COSMIC_FLOWER.asItem());
             itemGroup.add(ModBlocks.POTTED_TARAXACUM.asItem());
             itemGroup.add(ModBlocks.POTTED_BLUEBELLS.asItem());
+
+            itemGroup.add(ModBlocks.POTTED_ANEMONE_PINK.asItem());
+            itemGroup.add(ModBlocks.POTTED_ANEMONE_WHITE.asItem());
+            itemGroup.add(ModBlocks.POTTED_ANEMONE_RED.asItem());
+            itemGroup.add(ModBlocks.POTTED_ANEMONE_PURPLE.asItem());
         });
     }
 
@@ -174,6 +179,21 @@ public class ModBlocks {
             settings -> new FlowerPotBlock(BLUEBELLS, settings),
             AbstractBlock.Settings.create(), true);
 
+    public static final Block POTTED_ANEMONE_PINK = register("potted_anemone_pink",
+            settings -> new FlowerPotBlock(ANEMONE_PINK, settings),
+            AbstractBlock.Settings.create(), true);
+
+    public static final Block POTTED_ANEMONE_WHITE = register("potted_anemone_white",
+            settings -> new FlowerPotBlock(ANEMONE_WHITE, settings),
+            AbstractBlock.Settings.create(), true);
+
+    public static final Block POTTED_ANEMONE_RED = register("potted_anemone_red",
+            settings -> new FlowerPotBlock(ANEMONE_RED, settings),
+            AbstractBlock.Settings.create(), true);
+
+    public static final Block POTTED_ANEMONE_PURPLE = register("potted_anemone_purple",
+            settings -> new FlowerPotBlock(ANEMONE_PURPLE, settings),
+            AbstractBlock.Settings.create(), true);
 
     public static final Block DIGITALIS_PURPUREA_RUBY = register("digitalis_purpurea_ruby",
             TallFlowerBlock::new,
