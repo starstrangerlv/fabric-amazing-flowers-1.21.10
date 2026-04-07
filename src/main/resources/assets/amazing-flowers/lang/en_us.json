@@ -36,6 +36,7 @@
 
   "block.amazing-flowers.purplerose_bush": "Purple Roses",
   "block.amazing-flowers.whiterose_bush": "White Roses",
-  "block.amazing-flowers.yellowrose_bush": "Yellow Roses"
+  "block.amazing-flowers.yellowrose_bush": "Yellow Roses",
 
+  "itemGroup.your_mod_id.amazing_flowers": "Amazing Flowers"
 }

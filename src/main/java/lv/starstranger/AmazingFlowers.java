@@ -1,6 +1,7 @@
 package lv.starstranger;
 
 import lv.starstranger.block.ModBlocks;
+import lv.starstranger.item.ModItemGroups;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ModInitializer;
 
@@ -25,7 +26,9 @@ public class AmazingFlowers implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("-=* Amazing Flowers *=-");
 
+
 		ModBlocks.initialize();
+		ModItemGroups.registerItemGroups();
 
 		if (FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT) {
 			//add block transparency
