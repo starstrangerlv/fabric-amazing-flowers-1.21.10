@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "line_dye",
+  "ingredients": [
+    "amazing-flowers:anemone_white"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:lime_dye"
+  }
+}

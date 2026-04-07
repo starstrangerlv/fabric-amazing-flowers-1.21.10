@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "amazing-flowers:block/anemone_purple_var1"
+      },
+      {
+        "model": "amazing-flowers:block/anemone_purple_var2"
+      },
+      {
+        "model": "amazing-flowers:block/anemone_purple_var3"
+      },
+      {
+        "model": "amazing-flowers:block/anemone_purple_var4"
+      }
+    ]
+  }
+}

@@ -28,6 +28,10 @@ public class ModBlocks {
             itemGroup.add(ModBlocks.COSMIC_FLOWER.asItem());
             itemGroup.add(ModBlocks.TARAXACUM.asItem());
             itemGroup.add(ModBlocks.BLUEBELLS.asItem());
+            itemGroup.add(ModBlocks.ANEMONE_PINK.asItem());
+            itemGroup.add(ModBlocks.ANEMONE_RED.asItem());
+            itemGroup.add(ModBlocks.ANEMONE_WHITE.asItem());
+            itemGroup.add(ModBlocks.ANEMONE_PURPLE.asItem());
             itemGroup.add(ModBlocks.CROCUS_WHITE.asItem());
             itemGroup.add(ModBlocks.CROCUS_YELLOW.asItem());
             itemGroup.add(ModBlocks.CROCUS_PINK.asItem());
@@ -70,6 +74,46 @@ public class ModBlocks {
 
     public static final Block BLUEBELLS = register("bluebells",
             settings -> new FlowerBlock(StatusEffects.INVISIBILITY, 10, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PALE_PURPLE)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
+    public static final Block ANEMONE_PINK = register("anemone_pink",
+            settings -> new FlowerBlock(StatusEffects.ABSORPTION, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PALE_PURPLE)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
+    public static final Block ANEMONE_WHITE = register("anemone_white",
+            settings -> new FlowerBlock(StatusEffects.ABSORPTION, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PALE_PURPLE)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
+    public static final Block ANEMONE_RED = register("anemone_red",
+            settings -> new FlowerBlock(StatusEffects.ABSORPTION, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_RED)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
+    public static final Block ANEMONE_PURPLE = register("anemone_purple",
+            settings -> new FlowerBlock(StatusEffects.ABSORPTION, 15, settings),
             AbstractBlock.Settings.create()
                     .mapColor(MapColor.PALE_PURPLE)
                     .noCollision()

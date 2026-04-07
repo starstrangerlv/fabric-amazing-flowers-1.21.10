@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "amazing-flowers:anemone_pink",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "amazing-flowers:anemone_pink",
+    "count": 2
+  }
+}
