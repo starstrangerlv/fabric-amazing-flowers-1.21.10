@@ -94,6 +94,46 @@ public class ModBlocks {
                     .offset(AbstractBlock.OffsetType.XZ)
                     .pistonBehavior(PistonBehavior.DESTROY), true);
 
+    public static final Block BEGONIA_PINK = register("begonia_pink",
+            settings -> new FlowerBlock(StatusEffects.BAD_OMEN, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_PINK)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
+    public static final Block BEGONIA_RED = register("begonia_red",
+            settings -> new FlowerBlock(StatusEffects.BAD_OMEN, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_RED)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
+    public static final Block BEGONIA_WHITE = register("begonia_white",
+            settings -> new FlowerBlock(StatusEffects.BAD_OMEN, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_WHITE)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
+    public static final Block BEGONIA_YELLOW = register("begonia_yellow",
+            settings -> new FlowerBlock(StatusEffects.BAD_OMEN, 15, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.TERRACOTTA_YELLOW)
+                    .noCollision()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .offset(AbstractBlock.OffsetType.XZ)
+                    .pistonBehavior(PistonBehavior.DESTROY), true);
+
     public static final Block CROCUS_PINK = register("crocus_pink",
             settings -> new FlowerBlock(StatusEffects.OOZING, 15, settings),
             AbstractBlock.Settings.create()
@@ -146,6 +186,8 @@ public class ModBlocks {
             settings -> new FlowerPotBlock(BLUEBELLS, settings),
             AbstractBlock.Settings.create(), true);
 
+
+
     public static final Block POTTED_ANEMONE_PINK = register("potted_anemone_pink",
             settings -> new FlowerPotBlock(ANEMONE_PINK, settings),
             AbstractBlock.Settings.create(), true);
@@ -161,6 +203,25 @@ public class ModBlocks {
     public static final Block POTTED_ANEMONE_PURPLE = register("potted_anemone_purple",
             settings -> new FlowerPotBlock(ANEMONE_PURPLE, settings),
             AbstractBlock.Settings.create(), true);
+
+    public static final Block POTTED_BEGONIA_PINK = register("potted_begonia_pink",
+            settings -> new FlowerPotBlock(BEGONIA_PINK, settings),
+            AbstractBlock.Settings.create(), true);
+
+    public static final Block POTTED_BEGONIA_RED = register("potted_begonia_red",
+            settings -> new FlowerPotBlock(BEGONIA_RED, settings),
+            AbstractBlock.Settings.create(), true);
+
+    public static final Block POTTED_BEGONIA_WHITE = register("potted_begonia_white",
+            settings -> new FlowerPotBlock(BEGONIA_WHITE, settings),
+            AbstractBlock.Settings.create(), true);
+
+    public static final Block POTTED_BEGONIA_YELLOW = register("potted_begonia_yellow",
+            settings -> new FlowerPotBlock(BEGONIA_YELLOW, settings),
+            AbstractBlock.Settings.create(), true);
+
+
+
 
     public static final Block DIGITALIS_PURPUREA_RUBY = register("digitalis_purpurea_ruby",
             TallFlowerBlock::new,

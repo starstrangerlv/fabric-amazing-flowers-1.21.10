@@ -41,6 +41,11 @@ public class AmazingFlowers implements ModInitializer {
 			BlockRenderLayerMap.putBlock(ModBlocks.ANEMONE_RED, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.ANEMONE_PURPLE, BlockRenderLayer.CUTOUT);
 
+			BlockRenderLayerMap.putBlock(ModBlocks.BEGONIA_PINK, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.BEGONIA_WHITE, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.BEGONIA_RED, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.BEGONIA_YELLOW, BlockRenderLayer.CUTOUT);
+
 			BlockRenderLayerMap.putBlock(ModBlocks.CROCUS_PINK, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.CROCUS_PURPLE, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.CROCUS_WHITE, BlockRenderLayer.CUTOUT);
@@ -54,6 +59,11 @@ public class AmazingFlowers implements ModInitializer {
 			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_ANEMONE_PURPLE, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_ANEMONE_RED, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_ANEMONE_WHITE, BlockRenderLayer.CUTOUT);
+
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_BEGONIA_PINK, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_BEGONIA_RED, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_BEGONIA_WHITE, BlockRenderLayer.CUTOUT);
+			BlockRenderLayerMap.putBlock(ModBlocks.POTTED_BEGONIA_YELLOW, BlockRenderLayer.CUTOUT);
 
 			BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_RUBY, BlockRenderLayer.CUTOUT);
 			BlockRenderLayerMap.putBlock(ModBlocks.DIGITALIS_PURPUREA_PURPLE, BlockRenderLayer.CUTOUT);

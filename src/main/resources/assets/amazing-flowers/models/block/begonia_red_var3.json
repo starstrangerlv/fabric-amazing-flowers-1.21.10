@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "amazing-flowers:block/begonia_red_var3"
+  }
+}

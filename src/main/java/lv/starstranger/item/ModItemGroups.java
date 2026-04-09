@@ -29,36 +29,45 @@ public class ModItemGroups {
             FabricItemGroup.builder()
                     .displayName(Text.translatable("itemGroup.your_mod_id.amazing_flowers"))
                     .icon(() -> new ItemStack(ModBlocks.JOE_PYE_WEED.asItem())) // Set your icon here
-                    .entries((displayContext, entries) -> {
+                    .entries((displayContext, itemGroup) -> {
                         //entries.add(Items.POPPY); // Add items to the group
-                        entries.add(ModBlocks.COSMIC_FLOWER.asItem());
+                        itemGroup.add(ModBlocks.COSMIC_FLOWER.asItem());
 
-                        entries.add(ModBlocks.TARAXACUM.asItem());
-                        entries.add(ModBlocks.BLUEBELLS.asItem());
-                        entries.add(ModBlocks.ANEMONE_PINK.asItem());
-                        entries.add(ModBlocks.ANEMONE_RED.asItem());
-                        entries.add(ModBlocks.ANEMONE_WHITE.asItem());
-                        entries.add(ModBlocks.ANEMONE_PURPLE.asItem());
-                        entries.add(ModBlocks.CROCUS_WHITE.asItem());
-                        entries.add(ModBlocks.CROCUS_YELLOW.asItem());
-                        entries.add(ModBlocks.CROCUS_PINK.asItem());
-                        entries.add(ModBlocks.CROCUS_PURPLE.asItem());
-                        entries.add(ModBlocks.DIGITALIS_PURPUREA_RUBY.asItem());
-                        entries.add(ModBlocks.DIGITALIS_PURPUREA_PURPLE.asItem());
-                        entries.add(ModBlocks.DELPHINIUM.asItem());
-                        entries.add(ModBlocks.JOE_PYE_WEED.asItem());
-                        entries.add(ModBlocks.WHITEROSE_BUSH.asItem());
-                        entries.add(ModBlocks.YELLOWROSE_BUSH.asItem());
-                        entries.add(ModBlocks.PURPLEROSE_BUSH.asItem());
+                        itemGroup.add(ModBlocks.TARAXACUM.asItem());
+                        itemGroup.add(ModBlocks.BLUEBELLS.asItem());
+                        itemGroup.add(ModBlocks.ANEMONE_PINK.asItem());
+                        itemGroup.add(ModBlocks.ANEMONE_RED.asItem());
+                        itemGroup.add(ModBlocks.ANEMONE_WHITE.asItem());
+                        itemGroup.add(ModBlocks.ANEMONE_PURPLE.asItem());
+                        itemGroup.add(ModBlocks.BEGONIA_PINK.asItem());
+                        itemGroup.add(ModBlocks.BEGONIA_RED.asItem());
+                        itemGroup.add(ModBlocks.BEGONIA_WHITE.asItem());
+                        itemGroup.add(ModBlocks.BEGONIA_YELLOW.asItem());
+                        itemGroup.add(ModBlocks.CROCUS_WHITE.asItem());
+                        itemGroup.add(ModBlocks.CROCUS_YELLOW.asItem());
+                        itemGroup.add(ModBlocks.CROCUS_PINK.asItem());
+                        itemGroup.add(ModBlocks.CROCUS_PURPLE.asItem());
+                        itemGroup.add(ModBlocks.DIGITALIS_PURPUREA_RUBY.asItem());
+                        itemGroup.add(ModBlocks.DIGITALIS_PURPUREA_PURPLE.asItem());
+                        itemGroup.add(ModBlocks.DELPHINIUM.asItem());
+                        itemGroup.add(ModBlocks.JOE_PYE_WEED.asItem());
+                        itemGroup.add(ModBlocks.WHITEROSE_BUSH.asItem());
+                        itemGroup.add(ModBlocks.YELLOWROSE_BUSH.asItem());
+                        itemGroup.add(ModBlocks.PURPLEROSE_BUSH.asItem());
 
-                        entries.add(ModBlocks.POTTED_COSMIC_FLOWER.asItem());
-                        entries.add(ModBlocks.POTTED_TARAXACUM.asItem());
-                        entries.add(ModBlocks.POTTED_BLUEBELLS.asItem());
+                        itemGroup.add(ModBlocks.POTTED_COSMIC_FLOWER.asItem());
+                        itemGroup.add(ModBlocks.POTTED_TARAXACUM.asItem());
+                        itemGroup.add(ModBlocks.POTTED_BLUEBELLS.asItem());
 
-                        entries.add(ModBlocks.POTTED_ANEMONE_PINK.asItem());
-                        entries.add(ModBlocks.POTTED_ANEMONE_WHITE.asItem());
-                        entries.add(ModBlocks.POTTED_ANEMONE_RED.asItem());
-                        entries.add(ModBlocks.POTTED_ANEMONE_PURPLE.asItem());
+                        itemGroup.add(ModBlocks.POTTED_ANEMONE_PINK.asItem());
+                        itemGroup.add(ModBlocks.POTTED_ANEMONE_WHITE.asItem());
+                        itemGroup.add(ModBlocks.POTTED_ANEMONE_RED.asItem());
+                        itemGroup.add(ModBlocks.POTTED_ANEMONE_PURPLE.asItem());
+
+                        itemGroup.add(ModBlocks.POTTED_BEGONIA_PINK.asItem());
+                        itemGroup.add(ModBlocks.POTTED_BEGONIA_RED.asItem());
+                        itemGroup.add(ModBlocks.POTTED_BEGONIA_WHITE.asItem());
+                        itemGroup.add(ModBlocks.POTTED_BEGONIA_YELLOW.asItem());
                     })
                     .build()
     );
@@ -73,6 +82,10 @@ public class ModItemGroups {
             itemGroup.add(ModBlocks.ANEMONE_RED.asItem());
             itemGroup.add(ModBlocks.ANEMONE_WHITE.asItem());
             itemGroup.add(ModBlocks.ANEMONE_PURPLE.asItem());
+            itemGroup.add(ModBlocks.BEGONIA_PINK.asItem());
+            itemGroup.add(ModBlocks.BEGONIA_RED.asItem());
+            itemGroup.add(ModBlocks.BEGONIA_WHITE.asItem());
+            itemGroup.add(ModBlocks.BEGONIA_YELLOW.asItem());
             itemGroup.add(ModBlocks.CROCUS_WHITE.asItem());
             itemGroup.add(ModBlocks.CROCUS_YELLOW.asItem());
             itemGroup.add(ModBlocks.CROCUS_PINK.asItem());
@@ -90,6 +103,11 @@ public class ModItemGroups {
             itemGroup.add(ModBlocks.POTTED_COSMIC_FLOWER.asItem());
             itemGroup.add(ModBlocks.POTTED_TARAXACUM.asItem());
             itemGroup.add(ModBlocks.POTTED_BLUEBELLS.asItem());
+
+            itemGroup.add(ModBlocks.POTTED_ANEMONE_PINK.asItem());
+            itemGroup.add(ModBlocks.POTTED_ANEMONE_WHITE.asItem());
+            itemGroup.add(ModBlocks.POTTED_ANEMONE_RED.asItem());
+            itemGroup.add(ModBlocks.POTTED_ANEMONE_PURPLE.asItem());
 
             itemGroup.add(ModBlocks.POTTED_ANEMONE_PINK.asItem());
             itemGroup.add(ModBlocks.POTTED_ANEMONE_WHITE.asItem());

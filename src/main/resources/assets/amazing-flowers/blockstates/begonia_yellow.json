@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "amazing-flowers:block/begonia_yellow_var1"
+      },
+      {
+        "model": "amazing-flowers:block/begonia_yellow_var2"
+      },
+      {
+        "model": "amazing-flowers:block/begonia_yellow_var3"
+      },
+      {
+        "model": "amazing-flowers:block/begonia_yellow_var4"
+      }
+    ]
+  }
+}
