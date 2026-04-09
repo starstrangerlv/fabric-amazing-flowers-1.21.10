@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "amazing-flowers:begonia_white",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "amazing-flowers:begonia_white",
+    "count": 2
+  }
+}
